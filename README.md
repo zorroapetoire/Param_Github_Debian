@@ -1,4 +1,4 @@
-# # Param_Github_Debian
+# Param_Github_Debian
 
 ![Git](https://img.shields.io/badge/Git-Ready-green) ![Debian](https://img.shields.io/badge/Debian%20Family-blue)  
 **Guide interactif pour débutants : Configurez GitHub et sauvegardez vos fichiers (facultatif)**
