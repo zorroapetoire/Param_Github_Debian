@@ -1,66 +1,46 @@
-# Param_Github_Debian
-![Git](https://img.shields.io/badge/Git-Ready-green) ![Debian](https://img.shields.io/badge/Debian-Kali-blue)  
+# # Param_Github_Debian
 
-**Un guide interactif pour débutants : Configurez GitHub et sauvegardez vos fichiers (facultatif) !**
+![Git](https://img.shields.io/badge/Git-Ready-green) ![Debian](https://img.shields.io/badge/Debian%20Family-blue)  
+**Guide interactif pour débutants : Configurez GitHub et sauvegardez vos fichiers (facultatif)**
 
-Salut ! Vous débutez sous Debian ou Kali et voulez apprendre à utiliser GitHub ? Ce dépôt est fait pour vous ! Avec un script simple, on vous guide pour :
-- Installer Git.
+Bienvenue ! Vous utilisez une distribution de la famille Debian comme Debian, Kali ou Ubuntu et souhaitez découvrir GitHub pour gérer vos fichiers ? Ce dépôt vous propose un script interactif simple pour :
+- Installer Git, l’outil de gestion de versions.
 - Configurer une connexion sécurisée à GitHub.
-- (Facultatif) Sauvegarder vos fichiers dans un dépôt.
+- (Optionnel) Sauvegarder vos fichiers sur un dépôt distant.
 
-## 🚀 Pourquoi ce dépôt ?
-- **Pour débutants** : Des étapes simples, sans jargon compliqué.
-- **Interactif** : Le script vous parle et vous laisse choisir.
-- **Flexible** : Apprenez juste la configuration, ou allez jusqu’à sauvegarder vos fichiers.
-
-## 📋 Prérequis
-- Un PC sous Linux famille Debian.
-- Une connexion internet.
-- Un compte GitHub ([créez-en un ici](https://github.com) si besoin).
-
-## 🎯 Comment ça marche ?
-1. **Téléchargez le script** :
-   ```bash
-   git clone https://github.com/zorroapetoire/Param_Github_Debian.git
-   cd Param_Github_Debian
-   ```
-2. **Lancez-le** :
-   ```bash
-   chmod +x setup_github_debian.sh  # Quand vous importez un script quelquonques, il faut lui permettre d'avoir le droit d'être executé.
-   ./setup_github_debian.sh
-   ```
-3. **Suivez les étapes** :
-   - Installez Git.
-   - Entrez votre nom et e-mail GitHub.
-   - Ajoutez une clé SSH (on vous montre comment).
-   - Optionnel : Sauvegardez vos fichiers si vous le souhaitez.
-
-## 🖼️ À quoi s’attendre
-Voici un aperçu :
-
-```
-Bienvenue dans ce script interactif !
-On va installer Git, configurer GitHub, et si vous voulez, sauvegarder vos fichiers en ligne.
-
-[Étape 1] Installation de Git...
-✅ Git est installé ! Version : git version 2.39.2
-
-[Étape 5 - Optionnelle] Voulez-vous sauvegarder des fichiers sur GitHub maintenant ?
-Choix (o/n) :
-```
-
-## 💡 Conseils
-- **Pas pressé ?** : Dites "n" à l’étape 5 et sauvegardez plus tard.
-- **Dépôt public** : Si vous sauvegardez, choisissez "public" sur GitHub pour partager vos créations.
-- **Perdu ?** : Les messages vous disent quoi faire si ça coince.
-
-## 🤝 Contribuer
-Une idée pour aider encore plus les débutants ? Ouvrez une issue ou proposez vos changements !
-
-## 📜 Licence
-[MIT](LICENSE) - Libre et gratuit pour tous !
+Conçu pour les débutants, ce guide vous accompagne étape par étape avec des instructions claires et un script qui fait le travail pour vous.
 
 ---
 
-**Créé par zorroapetoire pour vous, les nouveaux aventuriers de GitHub !**
-```
+## 🌟 Objectif du projet
+
+Ce dépôt vise à simplifier l’entrée dans l’univers de GitHub pour les utilisateurs de distributions Debian, Kali, Ubuntu ou autres variantes similaires. Que vous soyez un apprenant en sécurité (Kali), un utilisateur classique (Debian), ou un explorateur polyvalent (Ubuntu), vous apprendrez à :
+- Installer et configurer Git sur votre système.
+- Connecter votre machine à GitHub de manière sécurisée.
+- (Si vous le souhaitez) Sauvegarder vos fichiers en ligne pour les protéger ou les partager.
+
+### Avantages
+- **Accessibilité** : Instructions précises, sans jargon technique complexe.
+- **Interactivité** : Le script vous guide avec des questions simples.
+- **Flexibilité** : Configurez GitHub seul ou poussez vos fichiers quand vous êtes prêt.
+
+---
+
+## 📋 Prérequis
+
+Pour utiliser ce guide, vous aurez besoin de :
+- Un ordinateur sous une distribution de la famille Debian (Debian, Kali, Ubuntu, etc.).
+- Une connexion internet active.
+- Un compte GitHub – créez-en un gratuitement sur [github.com](https://github.com) si nécessaire.
+
+---
+
+## 🎯 Comment l’utiliser ?
+
+**Note importante** : L’installation de Git nécessite des droits administrateurs. Nous utilisons `sudo` pour cela, qui demandera votre mot de passe utilisateur. Ouvrez un terminal et suivez ces étapes :
+
+### 1. Téléchargez le dépôt
+Récupérez les fichiers avec ces commandes :
+```bash
+git clone https://github.com/zorroapetoire/Param_Github_Debian.git  # Télécharge le dépôt depuis GitHub
+cd Param_Github_Debian  # Entre dans le dossier avec 'cd' (change directory)
