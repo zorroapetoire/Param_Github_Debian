@@ -46,13 +46,13 @@ Si vous ne pouvez pas utiliser `git clone`, téléchargez directement le fichier
 Rendez le script exécutable :
 
 ```bash
-chmod +x install_github.sh
+chmod +x setup_github_debian.sh
 ```
 
 Puis exécutez-le avec :
 
 ```bash
-sudo ./install_github.sh
+sudo ./setup_github_debian.sh
 ```
 
 ---
